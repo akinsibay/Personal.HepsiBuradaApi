@@ -17,5 +17,10 @@ namespace HepsiBuradaApi.Domain.Entities
         public ICollection<Category> Categories { get; set; }
 
         // public required string ImagePath { get; set; }
+
+        public Product()
+        {
+
+        }
     }
 }
